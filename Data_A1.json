@@ -1,0 +1,58 @@
+[
+  {
+    "questionNo": "Q1",
+    "question": "What is the chance that a card chosen from a 5-card deck is not a 2, if there are three 2 number cards in the deck?",
+    "options": [
+      "Impossible",
+      "Likely",
+      "Certain",
+      "Unlikely"
+    ],
+    "correct": 3,
+    "image": "./assets/Logo.png"
+  },
+  {
+    "questionNo": "Q2",
+    "question": "Which of these events has an even chance?",
+    "options": [
+      "Rolling 3 on a fair die",
+      "Tossing a head on a fair coin",
+      "Rolling a number > 4 on a fair die",
+      "All of these"
+    ],
+    "correct": 1
+  },
+  {
+    "questionNo": "Q3",
+    "question": "You randomly pick a letter from the word PROBABILITY. What is the probability that the letter picked is a vowel?",
+    "options": [
+      "3/11",
+      "4/11",
+      "5/11",
+      "6/11"
+    ],
+    "correct": 1
+  },
+  {
+    "questionNo": "Q4",
+    "question": "If the chance of raining tomorrow is 30%, then the probability that it won’t rain is:",
+    "options": [
+      "0",
+      "0.5",
+      "0.7",
+      "0.3"
+    ],
+    "correct": 2
+  },
+  {
+    "questionNo": "Q5",
+    "question": "What is the probability of rolling a 0 on a die?",
+    "options": [
+      "1",
+      "0",
+      "0.3",
+      "0.5"
+    ],
+    "correct": 1
+  }
+]
