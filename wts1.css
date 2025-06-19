@@ -1,0 +1,143 @@
+
+
+#questiondiv{
+
+    padding-top:8px;
+    padding-bottom:8px;
+    font-size:25px;
+    height:100%;
+  }
+
+  #numdiv{
+    
+    color:black;
+    font-size: 2vw;
+  }
+
+  #question{
+    font-family:'Tahoma';
+    /* margin-bottom:1%;; */
+    display: inline;
+    font-size: 1.4vw;
+    margin-top: 1%;     
+    color: black;
+    font-weight: 600;
+  }
+  
+
+
+  li{
+   text-align: start;
+    
+    
+  }
+  
+  
+ 
+  .menu{
+    text-align:initial;
+    background-color: white;
+    padding-bottom: 20px;
+  
+  
+  }
+  .maindiv{
+      /* background-color: rgb(36, 124, 247); */
+      height: 24em;;
+      margin-top: 1%;
+ 
+  }
+  #heading{
+      font-family:Impact;
+      font-size:40px;
+     
+     
+  }
+
+  footer{
+    bottom:0;
+    position: fixed;
+    width: 100%
+  }
+
+  div.scroll{
+    overflow-y: auto;
+    margin-bottom:30px;
+  }
+  
+  hr{
+    height:2px;
+    background-color: black;
+  }
+span{
+  font-size: 25px;
+}
+#nextbtn{
+   width: 50%;
+
+}
+input[type=radio] {
+  
+  width: 5%;
+  height: 1em;
+}
+
+#subbtn{
+margin-top:18px;
+width: 2em;
+height: 3em;
+
+}
+.smallbtn{
+  width: 4em;
+  height: 2em;
+  margin: 3px;
+
+}
+#message{
+  padding-top: 1px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.hithere {
+  display: inline-block;
+  animation: hithere 1s ease;
+  animation-iteration-count: 1;
+}
+@keyframes hithere {
+  30% { transform: scale(1.2); }
+  40%, 60% { transform: rotate(-20deg) scale(1.2); }
+  50% { transform: rotate(20deg) scale(1.2); }
+  70% { transform: rotate(0deg) scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+.flip {
+  display: inline-block;
+  backface-visibility: visible !important;
+  animation: flip 2s ease ;
+  animation-iteration-count: 1;
+}
+@keyframes flip {
+  0% {
+    transform: perspective(400px) rotateY(0);
+    animation-timing-function: ease-out;
+  }
+  40% {
+    transform: perspective(400px) translateZ(150px) rotateY(170deg);
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+    animation-timing-function: ease-in;
+  }
+  80% {
+    transform: perspective(400px) rotateY(360deg) scale(.95);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: perspective(400px) scale(1);
+    animation-timing-function: ease-in;
+  }
+}
